@@ -19,3 +19,15 @@ Activités Pratiques
 
 <img width="508" alt="image" src="https://github.com/user-attachments/assets/6f49e3fe-35ca-4d72-8b93-79fea13180ec" />
 
+
+
+
+
+
+1/ Tester un Container avec des Permissions Élevées
+<img width="524" alt="image" src="https://github.com/user-attachments/assets/822dff70-4f31-4282-ab36-615d37cd8c14" />
+
+Cette pratique est dangereuse, car elle donne au conteneur un accès total au système hôte. Cela permet à un attaquant de modifier des fichiers système, d’accéder aux périphériques et même de prendre le contrôle de la machine.
+
+
+2/ Simuler une Évasion de Container
