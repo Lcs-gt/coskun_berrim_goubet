@@ -25,9 +25,14 @@ Activités Pratiques
 
 
 1/ Tester un Container avec des Permissions Élevées
+
 <img width="524" alt="image" src="https://github.com/user-attachments/assets/822dff70-4f31-4282-ab36-615d37cd8c14" />
 
 Cette pratique est dangereuse, car elle donne au conteneur un accès total au système hôte. Cela permet à un attaquant de modifier des fichiers système, d’accéder aux périphériques et même de prendre le contrôle de la machine.
 
 
 2/ Simuler une Évasion de Container
+
+<img width="281" alt="image" src="https://github.com/user-attachments/assets/e14ce33d-a11d-4a7e-aebc-20e41986cae9" />
+
+Cette faille permet au conteneur d'accéder et de modifier tous les fichiers du système hôte. Un attaquant pourrait alors voler des données, modifier des fichiers critiques ou même prendre le contrôle total de la machine.
