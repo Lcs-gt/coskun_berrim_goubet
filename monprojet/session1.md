@@ -78,5 +78,10 @@ L'image vulnerables/web-dvwa utilise Debian 9.5, une version obsolète qui ne re
 
 
 
+8/ Scanner une Image pour Détecter les Vulnérabilités
+
+Analyser une image avec Grype :
+
+<img width="631" alt="image" src="https://github.com/user-attachments/assets/647716e0-6ab2-42fa-8406-5244c0044205" />
 
 
