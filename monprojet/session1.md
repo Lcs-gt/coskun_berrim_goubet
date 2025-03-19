@@ -82,6 +82,7 @@ L'image vulnerables/web-dvwa utilise Debian 9.5, une version obsolète qui ne re
 
 Analyser une image avec Grype :
 
-<img width="631" alt="image" src="https://github.com/user-attachments/assets/647716e0-6ab2-42fa-8406-5244c0044205" />
+<img width="616" alt="image" src="https://github.com/user-attachments/assets/6ac1e839-3e01-4e2b-8244-677ae8537737" />
+
 
 
