@@ -46,11 +46,13 @@ Cette faille permet au conteneur d'accéder et de modifier tous les fichiers du 
 <img width="265" alt="image" src="https://github.com/user-attachments/assets/a4bd46e1-b81a-4835-9f3c-66190dce056a" />
 
 Construire et exécuter l’image
+
 <img width="617" alt="image" src="https://github.com/user-attachments/assets/e41ec57d-f0c6-4ffa-8486-a41f79dd2551" />
 
 Afficher l'id et l'uid de cet utilisateur
 
 <img width="266" alt="image" src="https://github.com/user-attachments/assets/b485012f-ec4a-4f41-8d22-1c37399d7cf7" />
+
 
 
 4/ Restreindre l’accès réseau d’un container
