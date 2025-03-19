@@ -85,4 +85,12 @@ Analyser une image avec Grype :
 <img width="616" alt="image" src="https://github.com/user-attachments/assets/6ac1e839-3e01-4e2b-8244-677ae8537737" />
 
 
+Comparer votre image build avec l'image alpine:latest
+
+<img width="611" alt="image" src="https://github.com/user-attachments/assets/0de02c5d-ca28-413c-9f68-a88f85ac4d7e" />
+
+
+Quelles sont les différences entre grype et trivy ?
+
+
 
