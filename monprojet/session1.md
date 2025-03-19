@@ -36,3 +36,17 @@ Cette pratique est dangereuse, car elle donne au conteneur un accès total au sy
 <img width="281" alt="image" src="https://github.com/user-attachments/assets/e14ce33d-a11d-4a7e-aebc-20e41986cae9" />
 
 Cette faille permet au conteneur d'accéder et de modifier tous les fichiers du système hôte. Un attaquant pourrait alors voler des données, modifier des fichiers critiques ou même prendre le contrôle total de la machine.
+
+
+3/ Créer une Image Sécurisée
+
+Écrire un Dockerfile minimaliste :
+<img width="265" alt="image" src="https://github.com/user-attachments/assets/a4bd46e1-b81a-4835-9f3c-66190dce056a" />
+
+Construire et exécuter l’image
+<img width="617" alt="image" src="https://github.com/user-attachments/assets/e41ec57d-f0c6-4ffa-8486-a41f79dd2551" />
+
+Afficher l'id et l'uid de cet utilisateur
+<img width="266" alt="image" src="https://github.com/user-attachments/assets/b485012f-ec4a-4f41-8d22-1c37399d7cf7" />
+
+
