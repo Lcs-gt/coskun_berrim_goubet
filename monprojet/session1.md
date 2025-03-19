@@ -71,6 +71,8 @@ Télécharger une image vulnérable et l’analyser avec Trivy :
 
 <img width="624" alt="image" src="https://github.com/user-attachments/assets/712d410b-7e2e-42bb-bc87-9ec7e90e5a23" />
 
+L'image vulnerables/web-dvwa utilise Debian 9.5, une version obsolète qui ne reçoit plus de mises à jour de sécurité. Le scan Trivy a détecté plusieurs vulnérabilités, dont certaines critiques. L'absence de mises à jour de sécurité augmente les risques d'exploitation.
+
 
 
 
