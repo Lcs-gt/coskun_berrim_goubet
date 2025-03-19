@@ -53,3 +53,10 @@ Afficher l'id et l'uid de cet utilisateur
 <img width="266" alt="image" src="https://github.com/user-attachments/assets/b485012f-ec4a-4f41-8d22-1c37399d7cf7" />
 
 
+4/ Restreindre l’accès réseau d’un container
+
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/aa356b44-a46e-459e-9a3a-f3ce71568fa5" />
+
+7/ Télécharger et Scanner une Image
+
+
