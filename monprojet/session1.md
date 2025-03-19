@@ -60,5 +60,12 @@ Afficher l'id et l'uid de cet utilisateur
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/aa356b44-a46e-459e-9a3a-f3ce71568fa5" />
 
 7/ Télécharger et Scanner une Image
+Télécharger une image vulnérable et l’analyser avec Trivy :
+
+<img width="605" alt="image" src="https://github.com/user-attachments/assets/12abf913-769c-4845-bdc5-7d654e504cd2" />
+
+<img width="628" alt="image" src="https://github.com/user-attachments/assets/1febb6db-8aeb-401a-a7d7-53cd1b609532" />
+
+
 
 
