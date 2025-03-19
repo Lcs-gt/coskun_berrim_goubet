@@ -69,5 +69,9 @@ Télécharger une image vulnérable et l’analyser avec Trivy :
 <img width="628" alt="image" src="https://github.com/user-attachments/assets/1febb6db-8aeb-401a-a7d7-53cd1b609532" />
 
 
+<img width="624" alt="image" src="https://github.com/user-attachments/assets/712d410b-7e2e-42bb-bc87-9ec7e90e5a23" />
+
+
+
 
 
