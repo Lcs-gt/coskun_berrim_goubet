@@ -92,6 +92,8 @@ Comparer votre image build avec l'image alpine:latest
 
 Quelles sont les différences entre grype et trivy ?
 
+
 Grype : Analyse les vulnérabilités à partir de la base Anchore et de la NVD. Plus lent car il télécharge une base locale.
+
 Trivy : Plus rapide, intègre aussi la détection de secrets et de mauvaises configurations. Utilise plusieurs bases de données comme GitHub Advisory et la NVD.
 
