@@ -97,3 +97,11 @@ Grype : Analyse les vulnérabilités à partir de la base Anchore et de la NVD. 
 
 Trivy : Plus rapide, intègre aussi la détection de secrets et de mauvaises configurations. Utilise plusieurs bases de données comme GitHub Advisory et la NVD.
 
+
+
+Étude de Cas : Attaque par Élévation de Privilège
+
+
+
+Pour éviter ce type d’attaque, il aurait fallu appliquer plusieurs bonnes pratiques de sécurité. D’abord, exécuter les containers avec des droits limités pour restreindre les actions possibles en cas de compromission. Ensuite, isoler les processus avec des mécanismes comme les namespaces et les cgroups pour empêcher un accès direct à l’hôte. Il aurait aussi été essentiel de sécuriser les communications en limitant l’exposition des services et en configurant des règles réseau adaptées. Enfin, chiffrer les données sensibles et surveiller les activités suspectes aurait réduit les risques d’exploitation.
+
