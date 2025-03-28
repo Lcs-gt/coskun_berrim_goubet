@@ -15,6 +15,7 @@ Activités Pratiques
 <img width="260" alt="image" src="https://github.com/user-attachments/assets/b827f633-cd24-4dd4-8663-97b2a6b2c1e5" />
 
 
+
 2/ Expérimentation des RBAC
 
 
