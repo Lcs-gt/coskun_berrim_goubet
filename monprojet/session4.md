@@ -32,7 +32,8 @@ Clé générée avec ID :
 4C463DC6913629CA506F5BAA145E8A1C43BD00F6B
 ```
 
-![Génération de la clé GPG](./file-GbGZNKZbxRm4QHd4uLgLfL)
+![Génération de la clé GPG]
+![image](https://github.com/user-attachments/assets/161c529a-f390-4ffd-8d8a-70965df7d659)
 
 ---
 
@@ -66,7 +67,9 @@ docker push registry.gitlab.com/seddik2/cosign-test:v1
 cosign sign --key cosign.key registry.gitlab.com/seddik2/cosign-test:v1
 ```
 
-![Signature Cosign](./file-TefiXEogiiUJ6DwmNhtQoE)
+![Signature Cosign]
+![image](https://github.com/user-attachments/assets/9159eae3-edb7-4d7a-9fd0-4ac6b28b67d6)
+
 
 ---
 
@@ -101,7 +104,8 @@ cosign verify --key cosign.pub registry.gitlab.com/seddik2/cosign-test:v2
 ```
 Résultat : **Erreur - no signatures found**
 
-![Erreur signature v2](./file-A9RUHs2Gu3qNVz1p55yZN6)
+![Erreur signature v2]
+![image](https://github.com/user-attachments/assets/ae2026fb-69b6-4b7a-a8d5-c52ee419b9e6)
 
 ---
 
@@ -115,5 +119,5 @@ La signature de l'image Docker avec Cosign et GPG a permis de :
 
 ---
 
-**Réalisé par :** SEDDIK  
+
 **Projet GitLab :** https://gitlab.com/seddik2/cosign-test
