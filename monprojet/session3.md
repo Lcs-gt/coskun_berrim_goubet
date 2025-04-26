@@ -22,3 +22,7 @@ Activités Pratiques
 <img width="540" alt="image" src="https://github.com/user-attachments/assets/a1d37ba6-e1b6-448b-813b-658040f49693" />
 
 
+
+<img width="374" alt="image" src="https://github.com/user-attachments/assets/b50968a5-f4cc-4e82-b536-f091fbefee7a" />
+
+
