@@ -3,18 +3,18 @@
 
 ---
 
-## ✍️ Objectif  
+## Objectif  
 L'objectif de cette activité est d'assurer l'intégrité et l'authenticité des images Docker en les signant numériquement avec **Cosign** et une **clé GPG** personnelle, puis de vérifier la détection d'une image altérée.
 
 ---
 
-## 🔍 1. Créer un projet GitLab  
+##  1. Créer un projet GitLab  
 Un projet GitLab a été créé avec le nom suivant : **cosign-test**, à l'adresse :  
 👉 https://gitlab.com/seddik2/cosign-test
 
 ---
 
-## 🔐 2. Générer une paire de clés GPG  
+##  2. Générer une paire de clés GPG  
 Commande :
 ```bash
 gpg --full-generate-key
@@ -37,7 +37,7 @@ Clé générée avec ID :
 
 ---
 
-## 🔑 3. Exporter la clé privée GPG  
+##  3. Exporter la clé privée GPG  
 Commande :
 ```bash
 gpg --export-secret-keys --armor 4C463DC6913629CA506F5BAA145E8A1C43BD00F6B > private-gpg.key
@@ -45,7 +45,7 @@ gpg --export-secret-keys --armor 4C463DC6913629CA506F5BAA145E8A1C43BD00F6B > pri
 
 ---
 
-## 🚀 4. Création et signature d'une image Docker
+##  4. Création et signature d'une image Docker
 
 ### Build et tag :
 ```bash
@@ -73,7 +73,7 @@ cosign sign --key cosign.key registry.gitlab.com/seddik2/cosign-test:v1
 
 ---
 
-## 📝 5. Modification de l'image et push d’une version altérée
+##  5. Modification de l'image et push d’une version altérée
 
 ### Étapes :
 ```bash
@@ -90,15 +90,15 @@ docker push registry.gitlab.com/seddik2/cosign-test:v2
 
 ---
 
-## 🔍 6. Vérification des signatures
+##  6. Vérification des signatures
 
-### ✅ Image originale :
+###  Image originale :
 ```bash
 cosign verify --key cosign.pub registry.gitlab.com/seddik2/cosign-test:v1
 ```
 Résultat : **Succès**
 
-### ❌ Image altérée :
+###  Image altérée :
 ```bash
 cosign verify --key cosign.pub registry.gitlab.com/seddik2/cosign-test:v2
 ```
@@ -109,11 +109,11 @@ Résultat : **Erreur - no signatures found**
 
 ---
 
-## 🧠 Conclusion
+##  Conclusion
 
 La signature de l'image Docker avec Cosign et GPG a permis de :
-- ✅ Valider l’authenticité de l’image d’origine
-- ❌ Détecter une altération sur une image modifiée
+- Valider l’authenticité de l’image d’origine
+- Détecter une altération sur une image modifiée
 
 **Cosign est donc un outil puissant et simple à intégrer dans une chaîne CI/CD pour garantir l'intégrité des conteneurs.**
 
